@@ -2,12 +2,12 @@
 	"name": "npm-template",
 	"version": "1.0.0",
 	"description": "Skeleton for npm-based javascript projects",
-	"main": "index.js",
+	"main": "src/js/app.js",
 	"scripts": {
 		"test": "echo \"Error: no test script configured\" && exit 1",
 		"test:watch": "echo \"Error: no test script configured\" && exit 1",
 		"start": "echo \"Error: no server script configured\" && exit 1",
-		"build": "echo \"Error: no build script configured\" && exit 1",
+		"build": "webpack",
 		"lint": "echo \"Error: no lint script configured\" && exit 1",
 		"clean": "echo \"Error: no clean script configured\" && exit 1"
 	},
@@ -24,12 +24,16 @@
 		"webpack",
 		"mocha",
 		"karma",
-		"phantomjs"
+		"phantomjs",
+		"bootstrap"
 	],
 	"author": "Christopher Townson",
 	"license": "Apache-2.0",
 	"bugs": {
 		"url": "https://github.com/iteratoruk/npm-template/issues"
 	},
-	"homepage": "https://github.com/iteratoruk/npm-template#readme"
+	"homepage": "https://github.com/iteratoruk/npm-template#readme",
+	"devDependencies": {
+		"webpack": "^3.8.1"
+	}
 }

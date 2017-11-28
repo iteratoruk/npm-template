@@ -62,3 +62,6 @@ typings/
 # IntelliJ project files
 .idea/
 *.iml
+
+# Build output
+dist/
