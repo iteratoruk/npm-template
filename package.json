@@ -4,7 +4,12 @@
   "description": "Skeleton for npm-based javascript projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test script configured\" && exit 1",
+    "test:watch": "echo \"Error: no test script configured\" && exit 1",
+    "start": "echo \"Error: no server script configured\" && exit 1",
+    "build": "echo \"Error: no build script configured\" && exit 1",
+    "lint": "echo \"Error: no lint script configured\" && exit 1",
+    "clean": "echo \"Error: no clean script configured\" && exit 1"
   },
   "repository": {
     "type": "git",
