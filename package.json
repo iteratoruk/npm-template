@@ -1,0 +1,30 @@
+{
+  "name": "npm-template",
+  "version": "1.0.0",
+  "description": "Skeleton for npm-based javascript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iteratoruk/npm-template.git"
+  },
+  "keywords": [
+    "npm",
+    "template",
+    "skeleton",
+    "archetype",
+    "es6",
+    "webpack",
+    "mocha",
+    "karma",
+    "phantomjs"
+  ],
+  "author": "Christopher Townson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/iteratoruk/npm-template/issues"
+  },
+  "homepage": "https://github.com/iteratoruk/npm-template#readme"
+}
